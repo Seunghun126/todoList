@@ -17,8 +17,6 @@ import java.util.List;
 @RestController
 @RequestMapping("test")
 
-
-
 public class TestController {
 	@GetMapping("/test")
 	public String testController() {
